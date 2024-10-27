@@ -1,0 +1,94 @@
+body { 
+    font-family: 'Georgia', serif; 
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ae25bb;
+    padding: 10px;
+    text-align: center;
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.section {
+    width: 100%; 
+    padding: 40px; 
+    margin: 10px 0; 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; /* Cambiado para ajustar al contenido */
+    align-items: center; 
+}
+
+#introduccion {
+    background-color: #fffab2; 
+}
+
+#tradicion {
+    background-color: #ffd988; 
+}
+
+#ofrendas {
+    background-color: #fffab2; 
+}
+
+#elementos { /* Corregido el selector */
+    background-color: #fffab2; 
+}
+#imagenes {
+    background-color: #ffd988; 
+}
+
+h2 {
+    text-align: center; 
+    margin: 20px 0; 
+    font-family: 'Georgia', serif; 
+    font-style: italic; /* Cambiado a cursiva */
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 30%;
+    margin: 10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Ajuste adicional para la altura de las secciones */
+.section {
+    min-height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff; /* Cambia el color del texto a blanco */
+    background-color: #bf2fcc; /* Color de fondo del botón */
+    padding: 10px 15px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+nav a:hover {
+    background-color: #a02a9d; /* Color de fondo al pasar el mouse */
+}
